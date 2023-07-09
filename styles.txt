@@ -1,0 +1,5 @@
+negro oscuro: #202123
+gris fuerte: #353740
+gris claro: #444654
+hover aside: #343541
+border: d9d9e3

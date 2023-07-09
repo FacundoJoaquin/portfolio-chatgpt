@@ -1,0 +1,44 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem
+}
+.new-chat-btn {
+
+    width: 77%;
+    height: 44px;
+    border: 1px solid rgba(217, 217, 227, 0.309);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: .5rem;
+}
+.new-chat-btn svg {
+    margin-left: 0.5rem;
+    height: 1rem;
+    width: 1rem;
+    color: #F2FFF2;
+
+}
+.new-chat-txt {
+    color: #F2FFF2;
+    font-size: .8rem;
+    margin-top: .2rem;
+
+}
+.close-side {
+    width: 18%;
+    border: 1px solid rgba(217, 217, 227, 0.309);
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+
+}
+.close-side svg {
+    color: #F2FFF2;
+    width: 1.5rem;
+    height: 1.5rem;
+}
