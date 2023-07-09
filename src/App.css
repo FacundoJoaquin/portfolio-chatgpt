@@ -4,3 +4,22 @@
     box-sizing: border-box;
     font-family: 'Martel Sans', sans-serif;
 }
+a {
+    text-decoration: none;
+}
+.app {
+    display: flex;
+}
+.app-center {
+    display: flex;
+    flex-direction: column;
+    background-color: #343541;
+    width: 100%;
+}
+.app-main {
+    flex: 1;
+}
+.app-footer {
+    height: 12rem;
+    width: 100%
+}
