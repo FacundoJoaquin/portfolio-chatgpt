@@ -13,6 +13,7 @@ const AboutMe = () => {
 					</div>
 				</div>
 				<div className='answer'>
+						<Square />
 					<div className='answ-txt'>
 						<p>
 							Facundo Joaquín es un programador frontend jr de 29 años. Reside
