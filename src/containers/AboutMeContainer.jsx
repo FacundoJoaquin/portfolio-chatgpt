@@ -4,7 +4,7 @@ import AboutMe from '../components/AboutMe/AboutMe';
 const AboutMeContainer = () => {
 	return (
 		<>
-			asdasdasd
+			<AboutMe />
 		</>
 	);
 };

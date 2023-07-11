@@ -1,0 +1,40 @@
+.scroll-container {
+    height: 110%;
+    overflow-y: scroll;
+  }
+  .about-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+.question {
+    padding: 1rem;
+    width: 100%;
+    border-top: 1px solid ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.385);
+    background-color: #353740;
+    display: flex;
+    justify-content: center;
+}
+
+.qst-txt {
+    width: 70%;
+}
+.qst-txt p {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.answer {
+    width: 100%;
+    background-color: #444654;
+    opacity: 70%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.answ-txt{
+    width: 70%;
+
+    overflow: hidden;
+}

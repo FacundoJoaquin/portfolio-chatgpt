@@ -45,13 +45,4 @@
 	left: 95%;
 	filter: blur(5px);
 }
-.square-letter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 28px;
-    width: 28px;
-    background-color: violet;
-    border-radius: 0.125rem;
-	color: #ececf1;
-}
+

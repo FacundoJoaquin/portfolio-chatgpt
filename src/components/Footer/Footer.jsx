@@ -4,6 +4,7 @@ import './Footer.css';
 const Footer = () => {
 	return (
 		<div className='footer-container'>
+			<div className="div-invi"></div>
 			<div className='chat-container'>
 				<div className='txt-area'>
 					<textarea disabled name='' id='' cols='50' rows='1' value={'Conection not avaible.'}></textarea>

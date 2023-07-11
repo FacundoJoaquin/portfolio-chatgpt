@@ -1,5 +1,6 @@
 import React from 'react';
 import './BottomContainer.css';
+import Square from '../Square/Square';
 const BottomContainer = () => {
 	return (
 		<div className='bot-container'>
@@ -22,9 +23,7 @@ const BottomContainer = () => {
 				<p>Upgrade my Portfolio</p>
 			</div>
 			<div className='upgrade-container'>
-        <div className='square-letter'>
-          F
-        </div>
+				<Square />
 
 				<p>Facundo Joaquin</p>
 			</div>
