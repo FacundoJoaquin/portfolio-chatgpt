@@ -1,0 +1,11 @@
+.scroll-container {
+	height: 110%;
+	overflow-y: scroll;
+}
+
+.about-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+

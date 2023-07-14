@@ -3,8 +3,12 @@ import './Main.css';
 
 const Main = () => {
 	return (
-		<div className='top-main'>
-			<h1>Chat GPT</h1>
+		<div className='top-disconect'>
+			<div className='title'>
+				<h1>
+					<span>C</span>hat <span>GPT</span>
+				</h1>
+			</div>
 			<div className='top-content'>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'

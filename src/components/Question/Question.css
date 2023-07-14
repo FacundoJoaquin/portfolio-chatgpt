@@ -1,0 +1,19 @@
+.question {
+	padding: 1rem;
+	width: 100%;
+	border-top: 1px solid;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.385);
+	background-color: #353740;
+	display: flex;
+	justify-content: center;
+}
+
+.qst-txt {
+	width: 70%;
+}
+.qst-txt p {
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+    color: #D1D5DB;
+    font-size: .9rem;
+}

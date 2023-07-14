@@ -34,12 +34,4 @@
 .historial-li:hover {
     background-color: #2a2b32;
 }
-.historial-li:hover::before {
-    content: '';
-    position: absolute;
-    background-color: #202123;
-    width: 20px;
-    height: 100px;
-    left: 17.5%;
-    filter: blur(5px);
-}
+

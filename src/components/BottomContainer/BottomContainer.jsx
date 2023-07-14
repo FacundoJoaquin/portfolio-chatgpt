@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './BottomContainer.css';
 import Square from '../Square/Square';
+import Modal from '../Modal/Modal';
 const BottomContainer = () => {
+	const [showModal, setShowModal] = useState(false);
+
+	const handleModal = () => {
+		setShowModal(!showModal);
+		console.log(showModal);
+	};
+
 	return (
 		<div className='bot-container'>
-			<div className='upgrade-container'>
+			<div onClick={handleModal} className='upgrade-container'>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
 					fill='none'
@@ -20,13 +28,22 @@ const BottomContainer = () => {
 					/>
 				</svg>
 
-				<p>Upgrade my Portfolio</p>
+				<div className='upgrade-txt'>
+					<p>Upgrade my Portfolio</p>
+					<p className='new'>NEW</p>
+				</div>
 			</div>
 			<div className='upgrade-container'>
 				<Square />
 
 				<p>Facundo Joaquin</p>
 			</div>
+
+			{showModal && (
+				<div className='modal'>
+					<Modal showModal={showModal} setShowModal={setShowModal}></Modal>
+				</div>
+			)}
 		</div>
 	);
 };

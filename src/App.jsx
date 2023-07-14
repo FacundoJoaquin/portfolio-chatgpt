@@ -4,6 +4,9 @@ import SidebarContainer from './containers/SidebarContainer';
 import FooterContainer from './containers/FooterContainer';
 import MainContainer from './containers/MainContainer.jsx';
 import AboutMeContainer from './containers/AboutMeContainer.jsx';
+import ProyectsContainer from './containers/ProyectsContainer.jsx';
+import StackContainer from './containers/StackContainer.jsx';
+import ContactContainer from './containers/ContactContainer.jsx';
 
 function App() {
 	return (
@@ -17,6 +20,10 @@ function App() {
 						<Routes>
 							<Route path='/' element={<MainContainer />} />
 							<Route path='/facundo' element={<AboutMeContainer />} />
+							<Route path='/proyects' element={<ProyectsContainer />} />
+							<Route path='/stack' element={<StackContainer />} />
+							<Route path='/contact' element={<ContactContainer />} />
+							<Route path='*' element={<MainContainer />} />
 						</Routes>
 					</div>
 					<div className='app-footer'>

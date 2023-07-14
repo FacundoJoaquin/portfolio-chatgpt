@@ -4,6 +4,30 @@
     padding: 0.5rem;
     height: 100vh;
     overflow-y: hidden;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.side-bottom {
+    height: 30%;
+}
+
+.top-main {
+    display: flex;
+    width: 100%;
+    gap: .5rem;
+}
+.top-main-1 {
+    flex: 4
+    ;
+}
+.top-main-2 {
+    flex: 1;
+}
+.hidden {
+    position: absolute;
+    width: 3rem;
+    top: 1rem;
+    left: 1rem;
+}

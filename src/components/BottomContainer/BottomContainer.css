@@ -1,8 +1,8 @@
 .bot-container {
-    margin-top: 1rem;
+	margin-top: 1rem;
 	border-top: 1px solid hsla(0, 0%, 100%, 0.2);
 	position: relative;
-	top: 28%; /* Ajusta la propiedad top */
+	top: 28%; 
 	height: 8rem;
 	display: flex;
 	flex-direction: column;
@@ -19,6 +19,7 @@
 	overflow: hidden;
 	gap: 10px;
 	border-radius: 0.5rem;
+	cursor: pointer;
 }
 .upgrade-container p {
 	color: #ececf1;
@@ -46,3 +47,29 @@
 	filter: blur(5px);
 }
 
+.modal {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.755);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.upgrade-txt {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.upgrade-txt .new {
+	display: flex;
+	justify-content: center;
+	height: 1.5rem;
+	width: 2.6rem;
+	background-color: #FAE69E;
+	color: black;
+	border-radius: 5px;
+}
