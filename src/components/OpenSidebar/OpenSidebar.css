@@ -1,0 +1,20 @@
+.open-side {
+    width: 100%;
+    border: 1px solid rgba(217, 217, 227, 0.309);
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.open-side:hover {
+    background-color: #2a2b32;
+    transition: .5s;
+}
+.open-side svg {
+    color: #F2FFF2;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: rotate(180deg);
+}

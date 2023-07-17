@@ -1,51 +1,54 @@
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Martel Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Martel Sans', sans-serif;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 .app {
-    display: flex;
-    height: 100vh; /* Ajusta la altura de la aplicación al 100% del viewport */
-    overflow-y: hidden; /* Oculta el desplazamiento vertical */
+	display: flex;
+	height: 100vh; /* Ajusta la altura de la aplicación al 100% del viewport */
+	overflow-y: hidden; /* Oculta el desplazamiento vertical */
 }
 
 .app-center {
-    display: flex;
-    flex-direction: column;
-    background-color: #343541;
-    width: 100%;
-    height: 100vh;
-    overflow-y: auto; /* Añade un desplazamiento vertical solo cuando sea necesario */
+	display: flex;
+	flex-direction: column;
+	background-color: #343541;
+	width: 100%;
+	height: 100vh;
+	overflow-y: auto; /* Añade un desplazamiento vertical solo cuando sea necesario */
 }
 
 .app-main {
-    height: 70%;
+	height: 70%;
 }
 .app-footer {
-    height: 12rem;
-    width: 100%
+	height: 12rem;
+	width: 100%;
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #dadadc;
-    border-radius: 20px;
-    border: 4px solid transparent;
-    background-clip: content-box;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #f3f3f3;
-  }
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #dadadc;
+	border-radius: 20px;
+	border: 4px solid transparent;
+	background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #f3f3f3;
+}
+
+

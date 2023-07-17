@@ -1,5 +1,5 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import SidebarContainer from './containers/SidebarContainer';
 import FooterContainer from './containers/FooterContainer';
 import MainContainer from './containers/MainContainer.jsx';

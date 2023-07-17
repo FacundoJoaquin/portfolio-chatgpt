@@ -4,6 +4,7 @@ import ButtonChat from '../ButtonChat/ButtonChat';
 import HistorialContainer from '../HistorialContainer/HistorialContainer';
 import BottomContainer from '../BottomContainer/BottomContainer';
 import CloseSideBar from '../CloseSideBar/CloseSideBar';
+import OpenSidebar from '../OpenSidebar/OpenSidebar';
 
 const Sidebar = () => {
 	const headers = [
@@ -39,7 +40,7 @@ const Sidebar = () => {
 				</div>
 			) : (
 				<div className='hidden'>
-					<CloseSideBar handleSideBar={handleSideBar} />
+					<OpenSidebar handleSideBar={handleSideBar} />
 				</div>
 			)}
 		</>
