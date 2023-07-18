@@ -58,7 +58,7 @@ const Stack = () => {
 							<li>
 								<span className='resaltador'>React Js</span> - Curso realizo en
 								Coderhouse -
-								<Link to={'#'} target='_blank'>
+								<Link to={'https://www.coderhouse.com/certificados/64b5e60d51e741000286348b'} target='_blank'>
 									<span className='resaltador'>Link del certificado</span>
 								</Link>{' '}
 							</li>
