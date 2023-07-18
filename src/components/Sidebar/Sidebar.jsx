@@ -21,17 +21,17 @@ const Sidebar = () => {
 
 	useEffect(() => {
 		const handleWindowResize = () => {
-		  if (window.innerWidth <= 760) {
-			setShowSideBar(false);
-		  } else {
-			setShowSideBar(true);
-		  }
+			if (window.innerWidth <= 760) {
+				setShowSideBar(false);
+			} else {
+				setShowSideBar(true);
+			}
 		};
-			window.addEventListener('resize', handleWindowResize);
-			return () => {
-		  window.removeEventListener('resize', handleWindowResize);
+		window.addEventListener('resize', handleWindowResize);
+		return () => {
+			window.removeEventListener('resize', handleWindowResize);
 		};
-	  }, []);
+	}, []);
 
 	return (
 		<>

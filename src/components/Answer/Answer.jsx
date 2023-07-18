@@ -5,7 +5,7 @@ import './Answer.css'
 const Answer = ({ children }) => {
 	return (
 		<div className='answer'>
-			<Square />
+			<Square children={'F'} />
 			<div className='answ-txt'>
 				{children}
 			</div>

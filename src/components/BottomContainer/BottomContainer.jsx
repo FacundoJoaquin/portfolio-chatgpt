@@ -34,9 +34,9 @@ const BottomContainer = () => {
 				</div>
 			</div>
 			<div className='upgrade-container'>
-				<Square />
+				<Square children={'U'}/>
 
-				<p>Facundo Joaquin</p>
+				<p>User Guest</p>
 			</div>
 
 			{showModal && (

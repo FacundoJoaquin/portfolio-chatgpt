@@ -5,7 +5,7 @@ import './Question.css'
 const Question = ({ children }) => {
 	return (
 		<div className='question'>
-			<Square />
+			<Square children={'U'}/>
 			<div className='qst-txt'>
 				<p>{children}</p>
 			</div>

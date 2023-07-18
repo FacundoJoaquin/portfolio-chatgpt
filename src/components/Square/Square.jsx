@@ -1,10 +1,10 @@
 import React from 'react'
 import './Square.css'
 
-const Square = () => {
+const Square = ({children}) => {
   return (
     <div className='square-letter'>
-    F
+    {children}
   </div>
   )
 }
