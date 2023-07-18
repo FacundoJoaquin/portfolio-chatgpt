@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Sidebar.css';
 import ButtonChat from '../ButtonChat/ButtonChat';
 import HistorialContainer from '../HistorialContainer/HistorialContainer';
@@ -19,10 +19,24 @@ const Sidebar = () => {
 		setShowSideBar(!showSidebar);
 	};
 
+	useEffect(() => {
+		const handleWindowResize = () => {
+		  if (window.innerWidth <= 760) {
+			setShowSideBar(false);
+		  } else {
+			setShowSideBar(true);
+		  }
+		};
+			window.addEventListener('resize', handleWindowResize);
+			return () => {
+		  window.removeEventListener('resize', handleWindowResize);
+		};
+	  }, []);
+
 	return (
 		<>
 			{showSidebar ? (
-				<div className='main-side-container'>
+				<div className={`main-side-container ${showSidebar ? '' : 'hidden'}`}>
 					<div>
 						<div className='top-main'>
 							<div className='top-main-1'>

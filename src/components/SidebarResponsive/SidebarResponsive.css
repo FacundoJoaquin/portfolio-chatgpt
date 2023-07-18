@@ -1,0 +1,36 @@
+
+
+.main-side-container-responsive {
+    z-index: 500;
+    background-color: #202123;
+    width: 16.5rem;
+    padding: 0.5rem;
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-bottom-responsive {
+    height: 30%;
+}
+
+.top-main-responsive {
+    display: flex;
+    width: 100%;
+    gap: .5rem;
+}
+.top-main-1-responsive {
+    flex: 4
+    ;
+}
+.top-main-2-responsive {
+    flex: 1;
+}
+.hidden-responsive {
+    position: absolute;
+    width: 3rem;
+    top: 1rem;
+    left: 1rem;
+}
