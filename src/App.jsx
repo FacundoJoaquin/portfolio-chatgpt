@@ -9,16 +9,18 @@ import StackContainer from './containers/StackContainer.jsx';
 import ContactContainer from './containers/ContactContainer.jsx';
 import { ItemsProvider, ItemsContext } from './context/Context'; // Importa el contexto y asegúrate de agregarlo aquí
 import Sidebar from './components/Sidebar/Sidebar';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
-	
 	const [showSidebar, setShowSidebar] = useState(true);
-
 
 	return (
 		<ItemsProvider>
 			<BrowserRouter>
 				<div className='app'>
+					<div className='navbar'>
+						<Navbar />
+					</div>
 					<div className='app-sidebar'>
 						<Sidebar showSidebar={showSidebar} />
 					</div>

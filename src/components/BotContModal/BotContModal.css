@@ -1,0 +1,72 @@
+.btm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+.btm-close {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+}
+.btm-close {
+    color: white;
+}
+.btm-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btm-container svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #D9D9E3;
+}
+.btm-txt {
+    color: #D9D9E3;
+    font-size: .8rem;
+    display: flex;
+    height: 2rem;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+}
+.btm-txt .new {
+	display: flex;
+	justify-content: center;
+	height: 1.5rem;
+	width: 2.6rem;
+	background-color: #FAE69E;
+	color: black;
+	border-radius: 5px;
+}
+.btm-square {
+    color: #D9D9E3;
+    font-size: .8rem;
+    display: flex;
+    height: 2rem;
+    width: 90%;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+.btm-square p {
+    color: #D9D9E3;
+    margin-left: .5rem;
+    font-size: .8rem;
+}
+.btm-txt:hover, .btm-square:hover {
+    
+    background-color: #2a2b32;
+}
+
+@media (max-width: 400px) {
+    
+}

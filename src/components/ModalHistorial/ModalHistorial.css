@@ -1,0 +1,42 @@
+.modal-h-container {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.715);
+	display: flex;
+	flex-direction: column;
+	z-index: 40;
+}
+.modal-historial {
+	position: relative;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #202123;
+	z-index: 50;
+}
+.btc-modal {
+	margin: 2rem 0;
+	padding: 0 1rem;
+}
+.btm-close {
+    position: relative;
+    left: 42%;
+    top: 5%;
+    cursor: pointer;
+}
+
+.btm-close svg {
+    height: 2rem;
+    width: 2rem;
+}
+@media (max-width: 400px) {
+	.modal-historial {
+		width: 50%;
+	}
+	.btm-close {
+		left: 55%;
+	}
+}

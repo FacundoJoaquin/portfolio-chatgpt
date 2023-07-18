@@ -1,0 +1,16 @@
+.nav {
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+}
+.nav svg {
+    height: 2rem;
+    color: #91929c;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.nav svg:hover {
+    color: #cacad1;
+
+}

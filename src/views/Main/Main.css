@@ -34,3 +34,9 @@
     text-align: center;
     color: #ECECF1;
 }
+
+@media (max-width: 768px) {
+    .problem-msg {
+        width: 70%;
+    }
+}
