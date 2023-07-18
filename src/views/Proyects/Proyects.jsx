@@ -66,7 +66,7 @@ const Proyects = () => {
 								<br />
 								<Link
 									to={
-										'https://github.com/FacundoJoaquin/PF-React-Joaquin-Facundo'
+										'https://fanciful-beijinho-c66be9.netlify.app/'
 									}
 								>
 									<span className='resaltador'>Link del repositorio</span>
@@ -74,7 +74,7 @@ const Proyects = () => {
 								-{' '}
 								<Link
 									to={
-										'https://facundojoaquin.github.io/Proyecto-Final-Joaquin-Facundo/'
+										'https://github.com/FacundoJoaquin/PF-React-Joaquin-Facundo/'
 									}
 								>
 									<span className='resaltador'>Link del deploy</span>
