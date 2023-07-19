@@ -42,10 +42,11 @@
 
 @media (max-width: 500px) {
 	.modal-historial {
-		width: 50%;
+		position: absolute;
+		width: 65%;
 	}
 	.btm-close {
-		left: 55%;
+		left: 70%;
 	}
 
 }
