@@ -43,17 +43,31 @@
     .problem-msg {
         width: 70%;
    }
+   .top-content {
+    margin: 0;
+    font-size: .9rem;
+   }
 }
 
 @media (max-width: 768px) {
     .problem-msg {
         width: 70%;
     }
+    .top-content {
+        font-size: .8rem;
+       }
+    
 }
 
+@media (max-width: 480px){
+    .top-content {
+        font-size: .7rem;
+       }
+    
+}
 @media (max-width: 360px){
-    .top-disconect {
-        font-size: .9rem;
-
-    }
+    .top-content {
+        font-size: .65rem;
+       }
+    
 }
