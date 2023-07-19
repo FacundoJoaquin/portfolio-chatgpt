@@ -1,6 +1,7 @@
 .top-disconect {
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 .title {
     width: 100%;
@@ -35,8 +36,24 @@
     color: #ECECF1;
 }
 
+@media (max-width: 1040px){
+    .top-disconect{
+        overflow-y: auto;
+    }
+    .problem-msg {
+        width: 70%;
+   }
+}
+
 @media (max-width: 768px) {
     .problem-msg {
         width: 70%;
+    }
+}
+
+@media (max-width: 360px){
+    .top-disconect {
+        font-size: .9rem;
+
     }
 }
