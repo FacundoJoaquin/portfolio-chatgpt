@@ -9,9 +9,9 @@ const Navbar = () => {
 		setModalOpen(!modalOpen);
 	};
 	return (
-		<div>
+		<div className='asd'>
 			{modalOpen && <ModalHistorial onClose={handleModal} />}
-		
+
 			<div className='nav' onClick={handleModal}>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
