@@ -13,7 +13,7 @@ const BottomContainer = () => {
 	return (
 		<div className='btm'>
 			<div className='btm-container'>
-				<div className='btm-txt'>
+				<div onClick={handleModal} className='btm-txt'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						fill='none'
@@ -38,7 +38,13 @@ const BottomContainer = () => {
 
 				<p>User Guest</p>
 			</div>
+			{showModal && (
+				<div className='modal'>
+					<Modal showModal={showModal} setShowModal={setShowModal}></Modal>
+				</div>
+			)}
 		</div>
+
 	);
 };
 

@@ -29,8 +29,8 @@
     height: 2rem;
     width: 90%;
     align-items: center;
-    justify-content: center;
     gap: 0.5rem;
+    margin-left: .5rem;
     cursor: pointer;
     padding: 1.5rem 0;
     border-radius: 1rem;
@@ -67,6 +67,8 @@
     background-color: #2a2b32;
 }
 
-@media (max-width: 438px) {
-    
-}
+@media (max-width: 400px) {
+    .btm-txt p:first-child {
+        font-size: .2rem;
+    }
+    }

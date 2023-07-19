@@ -32,11 +32,20 @@
     height: 2rem;
     width: 2rem;
 }
-@media (max-width: 438px) {
+@media (max-width: 800px) {
+	.btm {
+		border-top: 1px solid gray;
+		padding-top: 1rem;
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 500px) {
 	.modal-historial {
 		width: 50%;
 	}
 	.btm-close {
 		left: 55%;
 	}
+
 }
