@@ -59,6 +59,7 @@ a {
 	.app {
 		display: flex;
 		flex-direction: column;
+		height: 100vh;
 	}
 	.app-main {
 		width: 100%;
@@ -79,6 +80,6 @@ a {
 		align-items: center;
 	}
 	.app-footer {
-		position: relative;
+		height: 60%;
 	}
 }
