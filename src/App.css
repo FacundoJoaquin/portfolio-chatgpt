@@ -13,8 +13,8 @@ a {
 }
 .app {
 	display: flex;
-	height: 100vh; /* Ajusta la altura de la aplicación al 100% del viewport */
-	overflow-y: hidden; /* Oculta el desplazamiento vertical */
+	height: calc(100% - 3rem); 
+	overflow-y: hidden; 
 }
 
 .app-center {
@@ -23,7 +23,7 @@ a {
 	background-color: #343541;
 	width: 100%;
 	height: 100vh;
-	overflow-y: hidden; /* Añade un desplazamiento vertical solo cuando sea necesario */
+	overflow-y: hidden; 
 }
 .navbar {
 	display: none;
@@ -32,7 +32,7 @@ a {
 	height: 70%;
 }
 .app-footer {
-	height: 12rem;
+	height: auto;
 	width: 100%;
 }
 
@@ -59,6 +59,8 @@ a {
 	.app {
 		display: flex;
 		flex-direction: column;
+		height: auto;
+
 	}
 	.app-main {
 		width: 100%;
@@ -68,8 +70,7 @@ a {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		height: auto;
-
+		height: calc(100vh - 3.05rem);
 	}
 	.app-sidebar {
 		display: none;
@@ -83,5 +84,5 @@ a {
 		top: 0;
 		left: 0;
 	}
-	
+	.app-footer{}
 }
