@@ -59,11 +59,10 @@ a {
 	.app {
 		display: flex;
 		flex-direction: column;
-		height: 100vh;
 	}
 	.app-main {
 		width: 100%;
-		
+		overflow: hidden;
 	}
 	.app-center {
 		width: 100%;
@@ -79,7 +78,5 @@ a {
 		display: flex;
 		align-items: center;
 	}
-	.app-footer {
-		height: 60%;
-	}
+
 }
