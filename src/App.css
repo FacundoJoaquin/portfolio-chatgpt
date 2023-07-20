@@ -57,16 +57,18 @@ a {
 
 @media (max-width: 768px) {
 	.app {
-		height: 100vh;
+		display: flex;
+		flex-direction: column;
 	}
 	.app-main {
 		width: 100%;
-		overflow: hidden;
+
 	}
 	.app-center {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+
 	}
 	.app-sidebar {
 		display: none;
@@ -77,5 +79,11 @@ a {
 		display: flex;
 		align-items: center;
 	}
-
+	.app-footer {
+		height: 6rem;
+		display: flex;
+		align-items:end;
+		justify-content: center;
+		margin-top: 3rem;
+	}
 }
