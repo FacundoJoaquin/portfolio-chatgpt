@@ -57,6 +57,7 @@ a {
 
 @media (max-width: 768px) {
 	.app {
+		height: 100vh;
 	}
 	.app-main {
 		width: 100%;
