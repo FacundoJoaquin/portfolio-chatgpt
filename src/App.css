@@ -59,10 +59,11 @@ a {
 	.app {
 		display: flex;
 		flex-direction: column;
+		height: calc(100% -6rem);
 	}
 	.app-main {
 		width: 100%;
-
+		
 	}
 	.app-center {
 		width: 100%;
@@ -73,6 +74,11 @@ a {
 	.app-sidebar {
 		display: none;
 	}
-
+	.navbar {
+		background-color: #343541;
+		border-bottom: 1px solid #707284;
+		display: flex;
+		align-items: center;
+	}
 	
 }
