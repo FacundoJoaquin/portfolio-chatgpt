@@ -59,7 +59,6 @@ a {
 	.app {
 		display: flex;
 		flex-direction: column;
-		height: calc(100% - 3rem);
 	}
 	.app-main {
 		width: 100%;
@@ -79,6 +78,9 @@ a {
 		border-bottom: 1px solid #707284;
 		display: flex;
 		align-items: center;
+		position: relative;
+		top: 0;
+		left: 0;
 	}
 	
 }
