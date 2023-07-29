@@ -99,8 +99,8 @@ const Proyects = () => {
 								</Link>
 							</li>
 							<li>
-								<span className='resaltador'>Vertis</span> - Vertis es un
-								proyecto desarrollado para venta de reproducción y producción
+								<span className='resaltador'>Vertis</span> - Vertis es un 
+								proyecto desarrollado con Sveltekit para venta de reproducción y producción
 								publicitaria, todo la página está fedeada utilizando API
 								Restful. Por razones obvias, no puedo mostrar el código pero
 								clickeando aquí podrás ver distintas imagenes. <br />

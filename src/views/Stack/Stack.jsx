@@ -64,6 +64,9 @@ const Stack = () => {
 							</li>
 						</p>
 					</ul>
+					<p>
+						Así mismo, Facundo ha aprendido a utilizar distintas herramientas útiles para la realización de su trabajo, entre las que cabe mencionar <span className="resaltador">Playwright, Postman, DBeaver y Vitest</span>.
+					</p>
 				</Answer>
 			</div>
 		</div>
