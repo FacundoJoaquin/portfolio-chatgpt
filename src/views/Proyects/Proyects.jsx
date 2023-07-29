@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Question from '../../components/Question/Question';
 import Answer from '../../components/Answer/Answer';
 import { Link } from 'react-router-dom';
+import ModalImg from '../../components/ModalImg/ModalImg';
+import './Proyects.css';
 
 const Proyects = () => {
+	const [showModal, setShowModal] = useState(false);
+
+	const openModal = () => {
+		setShowModal(true);
+	};
+	const closeModal = () => {
+		setShowModal(false);
+	};
+
 	return (
 		<div className='scroll-container'>
 			<div className='about-container'>
@@ -64,11 +75,7 @@ const Proyects = () => {
 								<span className='resaltador'>Pokeno</span> - Ecommerce ficticio
 								de Pokemon con temática retro realizado con React Js y Firebase.{' '}
 								<br />
-								<Link
-									to={
-										'https://fanciful-beijinho-c66be9.netlify.app/'
-									}
-								>
+								<Link to={'https://fanciful-beijinho-c66be9.netlify.app/'}>
 									<span className='resaltador'>Link del repositorio</span>
 								</Link>{' '}
 								-{' '}
@@ -91,10 +98,29 @@ const Proyects = () => {
 									<span className='resaltador'>Link del deploy</span>
 								</Link>
 							</li>
+							<li>
+								<span className='resaltador'>Vertis</span> - Vertis es un
+								proyecto desarrollado para venta de reproducción y producción
+								publicitaria, todo la página está fedeada utilizando API
+								Restful. Por razones obvias, no puedo mostrar el código pero
+								clickeando aquí podrás ver distintas imagenes. <br />
+								<span className='resaltador pointer' onClick={openModal}>
+									Ver imagenes
+								</span>
+							</li>
+							<li>
+								<span className='resaltador'>Reproductor radial para LU17</span>{' '}
+								- Reproductor de radio realizado para Red Uno, empresa que tiene
+								a su cargo distintas radios, entre ellas LU17. ¡Puedes entrar a disfrutar una buena radio chubutense!. <br />
+								<Link to={'https://dainty-tarsier-5f55ba.netlify.app/'}>
+									<span className='resaltador'>Link del deploy</span>
+								</Link>
+							</li>
 						</p>
 					</ul>
 				</Answer>
 			</div>
+			{showModal && <ModalImg closeModal={closeModal} />}
 		</div>
 	);
 };
