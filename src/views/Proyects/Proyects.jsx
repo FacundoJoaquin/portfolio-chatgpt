@@ -116,6 +116,13 @@ const Proyects = () => {
 									<span className='resaltador'>Link del deploy</span>
 								</Link>
 							</li>
+							<li>
+								<span className='resaltador'>Tuki</span>{' '}
+								- Aplicación web que te permite marcar en tiempo real distinto tipos de controles de transito. De Front utilice React junto a distintas tecnologías como Redux, Tailwind, Leaflet y de Back decidí apoyarme en firebase<br />
+								<Link to={'https://main--remarkable-cucurucho-f08c98.netlify.app/'}>
+									<span className='resaltador'>Link del deploy</span>
+								</Link>
+							</li>
 						</p>
 					</ul>
 				</Answer>

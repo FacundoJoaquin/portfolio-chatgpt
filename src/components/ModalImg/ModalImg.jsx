@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import './ModalImg.css';
-import avaibiliyty from '../../assets/vertis-avaibiliyty.jpeg';
-import client from '../../assets/vertis-client.jpeg';
-import clients from '../../assets/vertis-clients.jpeg';
-import login from '../../assets/vertis-login.jpeg';
-import nso from '../../assets/vertis-nso.jpeg';
-import nso1 from '../../assets/vertis-nso1.jpeg';
+import v1 from '../../assets/v1.png';
+import v2 from '../../assets/v2.png';
+import v3 from '../../assets/v3.png';
+import v4 from '../../assets/v4.png';
+import v5 from '../../assets/v5.png';
+import v6 from '../../assets/v6.png';
+import v7 from '../../assets/v7.png';
+import v8 from '../../assets/v8.png';
+import v9 from '../../assets/v9.png';
 
 const ModalImg = ({ closeModal }) => {
-	const vertisImgs = [avaibiliyty, client, clients, login, nso, nso1];
+	const vertisImgs = [v1, v2, v3, v4, v5, v6, v7, v8, v9];
 
 	const [currentImg, setCurrentImg] = useState(0);
 

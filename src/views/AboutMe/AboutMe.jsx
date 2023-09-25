@@ -5,7 +5,7 @@ import Question from '../../components/Question/Question';
 import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
-	let URL = 'https://drive.google.com/file/d/1RsnqEwIFMPLXVosFx4myrCR9pAJoKVYZ/view'
+	let URL = 'https://drive.google.com/file/d/1oH8f8TOVtgpcLIzR7CwpUZph7JzXCq65/view?usp=drive_link'
 	return (
 		<div className='scroll-container'>
 			<div className='about-container'>
