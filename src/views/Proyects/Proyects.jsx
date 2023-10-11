@@ -36,6 +36,38 @@ const Proyects = () => {
 					<ul>
 						<p>
 							<li>
+								<span className='resaltador'>Tuki</span>{' '}
+								- Aplicación web que te permite marcar en tiempo real distinto tipos de controles de transito. De Front utilice React junto a distintas tecnologías como Redux, Tailwind, Leaflet y de Back decidí apoyarme en firebase<br />
+								<Link to={'https://main--remarkable-cucurucho-f08c98.netlify.app/'}>
+									<span className='resaltador'>Link del deploy</span>
+								</Link>
+							</li>
+
+							<li>
+								<span className='resaltador'>Pokeno</span> - Ecommerce ficticio
+								de Pokemon con temática retro realizado con React Js y Firebase.{' '}
+								<br />
+								<Link to={'https://github.com/FacundoJoaquin/PF-React-Joaquin-Facundo/'}>
+									<span className='resaltador'>Link del repositorio</span>
+								</Link>{' '}
+								-{' '}
+								<Link to={'https://fanciful-beijinho-c66be9.netlify.app/'}
+
+								>
+									<span className='resaltador'>Link del deploy</span>
+								</Link>
+							</li>
+
+							<li>
+								<span className='resaltador'>Reproductor radial para LU17</span>{' '}
+								- Reproductor de radio realizado para Red Uno, empresa que tiene
+								a su cargo distintas radios, entre ellas LU17. ¡Puedes entrar a disfrutar una buena radio chubutense!. <br />
+								<Link to={'https://dainty-tarsier-5f55ba.netlify.app/'}>
+									<span className='resaltador'>Link del deploy</span>
+								</Link>
+							</li>
+
+							<li>
 								<span className='resaltador'>YWG</span> - Agencia de turismo
 								hecha únicamente con HTML, CSS y SCSS <br />
 								<Link
@@ -71,22 +103,7 @@ const Proyects = () => {
 									<span className='resaltador'>Link del deploy</span>
 								</Link>
 							</li>
-							<li>
-								<span className='resaltador'>Pokeno</span> - Ecommerce ficticio
-								de Pokemon con temática retro realizado con React Js y Firebase.{' '}
-								<br />
-								<Link to={'https://fanciful-beijinho-c66be9.netlify.app/'}>
-									<span className='resaltador'>Link del repositorio</span>
-								</Link>{' '}
-								-{' '}
-								<Link
-									to={
-										'https://github.com/FacundoJoaquin/PF-React-Joaquin-Facundo/'
-									}
-								>
-									<span className='resaltador'>Link del deploy</span>
-								</Link>
-							</li>
+
 							<li>
 								<span className='resaltador'>Primer portfolio</span> - Primer
 								portfolio realizado con HTML, CSS y JS, utilizando SCSS. <br />
@@ -99,7 +116,7 @@ const Proyects = () => {
 								</Link>
 							</li>
 							<li>
-								<span className='resaltador'>Vertis</span> - Vertis es un 
+								<span className='resaltador'>Vertis</span> - Vertis es un
 								proyecto desarrollado con Sveltekit para venta de reproducción y producción
 								publicitaria, todo la página está fedeada utilizando API
 								Restful. Por razones obvias, no puedo mostrar el código pero
@@ -108,21 +125,8 @@ const Proyects = () => {
 									Ver imagenes
 								</span>
 							</li>
-							<li>
-								<span className='resaltador'>Reproductor radial para LU17</span>{' '}
-								- Reproductor de radio realizado para Red Uno, empresa que tiene
-								a su cargo distintas radios, entre ellas LU17. ¡Puedes entrar a disfrutar una buena radio chubutense!. <br />
-								<Link to={'https://dainty-tarsier-5f55ba.netlify.app/'}>
-									<span className='resaltador'>Link del deploy</span>
-								</Link>
-							</li>
-							<li>
-								<span className='resaltador'>Tuki</span>{' '}
-								- Aplicación web que te permite marcar en tiempo real distinto tipos de controles de transito. De Front utilice React junto a distintas tecnologías como Redux, Tailwind, Leaflet y de Back decidí apoyarme en firebase<br />
-								<Link to={'https://main--remarkable-cucurucho-f08c98.netlify.app/'}>
-									<span className='resaltador'>Link del deploy</span>
-								</Link>
-							</li>
+
+
 						</p>
 					</ul>
 				</Answer>
