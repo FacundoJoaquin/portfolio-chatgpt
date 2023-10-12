@@ -20,7 +20,7 @@ a {
 }
 
 .app-center {
-	margin-top: 1.5rem;
+	margin-top: 2rem;
 	display: flex;
 	flex-direction: column;
 	background-color: #343541;
@@ -92,5 +92,12 @@ a {
 		align-items:end;
 		justify-content: center;
 		margin-top: 3rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.app-footer{
+		position: absolute;
+		bottom: 0;
 	}
 }
