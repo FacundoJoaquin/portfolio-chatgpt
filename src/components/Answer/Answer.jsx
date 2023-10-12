@@ -15,4 +15,3 @@ const Answer = ({ children }) => {
 
 export default Answer;
 
-/*  */
