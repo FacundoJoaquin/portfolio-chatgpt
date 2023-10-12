@@ -13,25 +13,27 @@ a {
 }
 .app {
 	position: relative;
+	background-color: #343541;
+	top: 0;
+	left: 0;
 	display: flex;
-	width: 100%;
-	height: 100vh; 
-	overflow: hidden;
+	height: 100vh; /* Ajusta la altura de la aplicación al 100% del viewport */
+	overflow-y: hidden; /* Oculta el desplazamiento vertical */
 }
 
 .app-center {
 	display: flex;
 	flex-direction: column;
 	background-color: #343541;
-	height: 100%;
-	overflow-y: hidden;
+	width: 100%;
+	height: 100vh;
+	overflow-y: hidden; /* Añade un desplazamiento vertical solo cuando sea necesario */
 }
 .navbar {
 	display: none;
 }
 .app-main {
 	height: 70%;
-	width: 100%;
 }
 .app-footer {
 	position: absolute;
@@ -66,11 +68,13 @@ a {
 	}
 	.app-main {
 		width: 100%;
+
 	}
 	.app-center {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+
 	}
 	.app-sidebar {
 		display: none;
@@ -84,7 +88,7 @@ a {
 	.app-footer {
 		height: 6rem;
 		display: flex;
-		align-items: end;
+		align-items:end;
 		justify-content: center;
 		margin-top: 3rem;
 	}
