@@ -26,7 +26,7 @@ const Main = () => {
 				</svg>
 				<div className='problem-msg'>
 					<p>
-					actualizadoLamentamos los problemas de conexión que estás experimentando en
+					jeee Lamentamos los problemas de conexión que estás experimentando en
 						nuestra página web. Estamos investigando la causa y trabajando para
 						solucionarlos lo más rápido posible. Queremos asegurarte que puedes
 						revisar tu historial de búsqueda para encontrar cualquier
