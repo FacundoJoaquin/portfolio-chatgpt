@@ -14,9 +14,9 @@
 	align-items: center;
 }
 .chat-container p {
-	margin-top: 0.5rem;
-	font-size: 0.7rem;
-	color: #ececf182;
+    margin-top: .5rem;
+    font-size: .7rem;
+    color: #ececf182;
 }
 .txt-area {
 	background-color: #40414f;
@@ -28,7 +28,7 @@
 	box-shadow:
 		0 1px 3px 0 rgb(0 0 0 / 0.1),
 		0 1px 2px -1px rgb(0 0 0 / 0.1);
-}
+} /* PONERLE STICKY A TEXTAREA Y SACARSELO AL FOOTER EN SI */
 .txt-area textarea {
 	background-color: #40414f;
 	border: none;
